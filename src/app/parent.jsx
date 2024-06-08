@@ -1,7 +1,7 @@
+"use client"
 import React, { useState, useCallback } from 'react';
 import Child1 from './Child1';
 import Child2 from './Child2';
-import styles from './Parent.module.css';
 
 const Parent = () => {
   const [money, setMoney] = useState(0);
@@ -15,9 +15,9 @@ const Parent = () => {
   }, []);
 
   return (
-    <div className={styles.container}>
-      <h1 className={styles.title}>Parent Component</h1>
-      <p className={styles.money}>Money: {money}</p>
+    <div className="container">
+      <h1 className="title">Parent Component</h1>
+      <p className="money">Money: {money}</p>
       <Child1 incrementMoney={incrementMoney} />
       <Child2 decrementMoney={decrementMoney} />
     </div>
