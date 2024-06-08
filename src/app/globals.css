@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+.container {
+  border: 2px solid #ccc;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.title {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.money {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.child-container {
+  margin: 20px;
+}
+
+.button {
+  padding: 10px 20px;
+  font-size: 1em;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.button-increment {
+  background-color: #4caf50;
+}
+
+.button-increment:hover {
+  background-color: #45a049;
+}
+
+.button-decrement {
+  background-color: #f44336;
+}
+
+.button-decrement:hover {
+  background-color: #da190b;
+}
